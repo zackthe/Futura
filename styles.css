@@ -23,8 +23,8 @@ img{
 }
 
 .container{
-    max-width: 1100px;
     margin: 0 auto;
+    width: 80%;
 }
 
 a{
@@ -63,6 +63,7 @@ h1,h2,a{
     color: var(--clr-primary);
 
 }
+
 
 p,button{
  font-family: var(--ff-texte)
@@ -111,7 +112,7 @@ nav.flex{
 
 
 .nav-ul > li{
-    font-size: calc( 1.2rem + 0.1vw);
+    font-size: calc( 1rem + 0.1vw);
 }
 
 
@@ -123,7 +124,7 @@ nav.flex{
 
     
 .btn-header{
-    font-size: calc( 0.9rem + 0.1vw);
+    font-size: calc( 0.8rem + 0.1vw);
     padding: 0.6em;
     color: white;
     background-color: var(--clr-primary);
@@ -197,12 +198,11 @@ nav.flex{
     }
     
    .nav-ul a:before{
-    top: 0px;
+    top: -4px;
     transform: translateY(10px);
     }
 
 .nav-ul a:after{
-    
     bottom: 0px;
     transform: translateY(-10px);
     }
@@ -298,24 +298,22 @@ nav.flex{
 
 .hero{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    padding: 1em 1em;
-    grid-gap: 3em;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-gap: 2em;
 }
 
 .hero-title-container{
-    
+    align-self: center;
 }
 
 .hero-title{
-    font-size: calc( 4.4rem + 0.5vw);
+    font-size: calc(3.5rem + 0.5vw);
     color: #1d1929;
 }
 
 .hero-paragraph{
-    font-size: calc( 1.2rem + 0.6vw);
+    font-size: calc( 1.2rem + 0.4vw);
     padding: 0.5em 0;
-    max-width: 400px
 }
 
 .hero-img{
@@ -352,7 +350,7 @@ nav.flex{
 
 .features-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
     padding: 5em 1em;
     grid-gap: 2em;
 }
@@ -396,7 +394,7 @@ nav.flex{
 }
 
 .feautures-card-text{
-    font-size: calc(1.2rem + 0.1vw)
+    font-size: calc(1rem + 0.1vw)
 }
 
 
@@ -408,7 +406,7 @@ nav.flex{
 }
 
 .testimonial-title{
-    font-size: calc( 3rem + 1vw);
+    font-size: calc(3rem + 1vw);
     text-align: center;
     max-width: 1200px;
     margin: auto;
@@ -418,9 +416,8 @@ nav.flex{
 .testimonial-card-container{
     display: grid;
     grid-gap: 2em ;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
     padding-bottom: 4em;
-    padding: 2em;
 }
 
 .testimonial-img{
@@ -436,7 +433,7 @@ nav.flex{
 
 .testimonial-paragraph{
     padding: 2em 0;
-    font-size: calc(1.2rem + 0.1vw);
+    font-size: calc(0.9rem + 0.1vw);
     align-self: start;
 }
 
@@ -446,11 +443,10 @@ nav.flex{
     border:  solid 1px var(--clr-primary);
     background-color: white;
     color: var(--clr-primary);
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: bolder;
     padding: 0.5em;
     border-radius: 0px;
-    /*max-height: 2.5em;*/
 }
 
 .testimonial-card{
@@ -461,6 +457,7 @@ nav.flex{
     border: solid 0.1px #EEEEEE;
     align-items: center;
     padding: 1em;
+    border-radius: 5px;
 }
 
 .testimonial-card:hover{
@@ -484,8 +481,7 @@ footer{
     background-color: var(--clr-primary);
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 3em;
-    padding: 1em
+    padding: 1em;
 }
 
 .head-footer{
@@ -498,7 +494,7 @@ footer{
 }
 
 .head-footer > h1{
-    font-size: calc(1.9rem + 0.5vw);
+    font-size: calc(1.8rem + 0.4vw);
     margin: auto;
     padding-bottom: 0.4em;
     color: white;
@@ -511,14 +507,14 @@ footer{
 
 .footer-btn{
     font-weight: bold;
-    font-size: calc(1.1rem + 0.1vw);
+    font-size: calc(0.8rem + 0.1vw);
     padding: 0.6em
 }
 
 
 .nav-footer > ul > li{
     padding: 0.5em;
-    font-size: calc(0.9rem + 0.1vw); 
+    font-size: calc(0.6rem + 0.1vw); 
 }
 
 .copyright{
@@ -535,7 +531,7 @@ footer{
 
 .copyright-title{
     padding: 0.5em 0;
-    font-size: calc(2rem + 0.1vw);
+    font-size: calc(1.1rem + 0.1vw);
 }
 
 .copyright-text{
